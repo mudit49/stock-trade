@@ -1,0 +1,79 @@
+.LogIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card-log {
+    width: 350px;
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+}
+
+.card-log form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.card-log-p {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.form-log{
+    margin-top: 20px;
+    padding: 20px;
+}
+.card-log label {
+    margin-bottom: 15px;
+}
+
+.card-log input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px; /* Adjust top margin */
+    margin-bottom: 5px; /* Adjust bottom margin */
+}
+
+.card-log input:focus {
+    outline: none;
+    border-color: black;
+    box-shadow: 0 0 5px grey; /* Add a subtle shadow on focus */
+}
+.card-log p {
+    margin-bottom: 5px;
+}
+
+.card-log button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 50%;
+}
+
+.card-log span {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px; /* Increase the font size of the span */
+}
+
+@media screen and (max-width: 500){
+    .card-log {
+        width: auto; /* Add a box shadow */
+    }
+}

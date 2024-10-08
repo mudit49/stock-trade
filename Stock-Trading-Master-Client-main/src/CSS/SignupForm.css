@@ -1,0 +1,81 @@
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: max-content;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-sign form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-sign label {
+    margin-bottom: 15px;
+}
+
+.card-sign input {
+    width: 270px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.card-sign input:focus {
+    outline: none;
+    border-color: black;
+    box-shadow: 0 0 5px grey;
+}
+
+.card-sign p {
+    margin-bottom: 5px;
+}
+
+.card-sign button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 50%;
+}
+
+.card-sign span {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:500px) {
+    .card-sign {
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .card-sign input {
+        width:220px
+    }
+}

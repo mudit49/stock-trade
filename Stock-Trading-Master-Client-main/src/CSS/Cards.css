@@ -1,0 +1,91 @@
+.card {
+    width: 600px;
+    height:max-content;
+    margin: 1rem;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.change-cont,
+.price-cont {
+    margin-right: 20px;
+}
+
+label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Style for sup */
+sup {
+    font-size: 10px;
+    vertical-align: super;
+    color: red;
+}
+
+.Add {
+    padding: 10px 20px;
+    background-color: green; /* Match with the background color */
+    border: none;
+    border-radius: 5px;
+    color: white; /* Text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* Make button a block element */
+    margin: 0 auto; /* Center button horizontally */
+    margin-bottom: 5px;
+}
+
+.Add:hover {
+    background-color: #cce6ff; 
+}
+
+.Remove {
+    padding: 10px 20px;
+    background-color: red;
+    opacity: 0.7;
+    border: none;
+    border-radius: 5px;
+    color: white; /* Text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 5px;
+}
+
+.Remove:hover {
+    background-color: #cce6ff; 
+}
+
+
+
+@media screen and (max-width:768px){
+    .card {
+        width:300px;
+    }
+}
