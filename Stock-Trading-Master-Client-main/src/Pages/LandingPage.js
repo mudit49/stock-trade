@@ -1,7 +1,7 @@
 import Hero from '../Components/Hero';
-import Layers from "@material-ui/icons/Layers";
-import Phonelink from "@material-ui/icons/Phonelink";
-import Comment from "@material-ui/icons/Comment"
+import Layers from '@mui/icons-material/Layers';
+import Phonelink from '@mui/icons-material/Phonelink';
+import Comment from '@mui/icons-material/Comment';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 function LandingPage({isLoggedIn}) {
